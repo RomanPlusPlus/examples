@@ -6,7 +6,7 @@
 
 int main()
 {
-
-std::cout << getSquareSides();
+    std::cout << getSquareSides();
+    
     return 0;
 }
