@@ -1,0 +1,12 @@
+# Enable cpp support
+language: cpp
+
+# Compiler selection
+compiler:
+   - clang
+   - gcc
+
+# Build steps
+script:
+   - cmake -B_builds -H.
+   - cmake --build _builds
