@@ -8,5 +8,6 @@ compiler:
 
 # Build steps
 script:
+   - cd 1.10a-Header-guards
    - cmake -B_builds -H.
    - cmake --build _builds
